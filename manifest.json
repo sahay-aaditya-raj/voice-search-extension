@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Voice Search",
+  "version": "1.0",
+  "description": "Search and highlight content on webpages using voice.",
+  "permissions": ["activeTab"],"content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["mark.js","script.js"]
+    }
+  ]
+}
