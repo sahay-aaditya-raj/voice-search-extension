@@ -20,4 +20,4 @@ Rest everything is made by me
 ### Created By
 Aaditya Raj
 
-![Alt Text](https://example.com/image.jpg)
+![Alt Text](image.png)
