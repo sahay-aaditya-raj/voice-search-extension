@@ -57,18 +57,20 @@ const bdy = document.querySelectorAll('body *:not(script)');
             startButton.style.backgroundColor = '#f0f0f0';
             const transcript = event.results[0][0].transcript;
             var voicetext = transcript.replace('.','');
-			var voicetext = voicetext.toLowerCase()
+			//var voicetext = voicetext.toLowerCase()
             console.log(voicetext);
 
             bdy.forEach(function(tag){
+                // creating new RegExp
+                const re = new RegExp(voicetext, 'ig');
                 var ob = new Mark(tag);
     
                 // First unmark the highlighted word or letter
                 ob.unmark();
     
                 // Highlight letter or word
-                ob.mark(
-                    voicetext,
+                ob.markRegExp(
+                    re
                 );
             })
             
