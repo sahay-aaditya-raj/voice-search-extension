@@ -7,3 +7,8 @@
 >*Used [mark.js](https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.js) for narking the elements*
 >
 >*Also used google mic icon svg as icon*
+
+Rest everything is made by me
+
+### Created By
+### Aaditya Raj
